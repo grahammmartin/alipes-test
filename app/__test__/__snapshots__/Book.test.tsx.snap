@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book component should render the component correctly 1`] = `
+<div>
+  <div
+    class="bg-white px-4 py-5 sm:px-6 border rounded-md w-64 h-64"
+  >
+    <div
+      class="flex space-x-3"
+    >
+      <div
+        class="min-w-0 flex-1 space-y-4"
+      >
+        <h1
+          class="hover:underline"
+        >
+          <p
+            class="text-sm font-semibold text-gray-900"
+          >
+            Test Book
+          </p>
+        </h1>
+        <p
+          class="text-sm text-gray-500"
+        >
+          Author : 
+          Test Author
+        </p>
+        <p
+          class="text-sm text-gray-500"
+        >
+          price : 
+          10
+          $
+        </p>
+        <p
+          class="text-sm text-gray-500"
+        >
+          description : 
+          Test description
+        </p>
+      </div>
+      <div
+        class="flex flex-shrink-0 self-start"
+      >
+        <div
+          class="relative inline-block text-left"
+          data-headlessui-state=""
+        >
+          <div>
+            <button
+              aria-expanded="false"
+              aria-haspopup="menu"
+              class="-m-2 flex items-center rounded-full p-2 text-gray-400 hover:text-gray-600"
+              data-headlessui-state=""
+              data-testid="menu-box"
+              id="headlessui-menu-button-:r1:"
+              type="button"
+            >
+              <span
+                class="sr-only"
+              >
+                Open options
+              </span>
+              <svg
+                aria-hidden="true"
+                class="h-5 w-5"
+                data-slot="icon"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM10 8.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM11.5 15.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Application with Builder.io Integration
 
-## Getting Started
+This project demonstrates how to set up a basic Next.js application that integrates with Builder.io, a visual headless CMS. The application includes a home page, a Builder.io page that renders content from Builder.io, and a custom React component with user interactivity.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+- [Setup Instructions](#setup-instructions)
+- [Features](#features)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project consists of a Next.js application with the following pages:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Home Page**: A simple "Hello World" page.
+- **Builder Page**: A page that fetches and renders content from Builder.io.
 
-## Learn More
+### Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Builder.io Integration**: The application fetches structured data from Builder.io and renders it within a Builder.io symbol.
+- **Custom React Component**: A custom React component is registered and used within the Builder.io content, providing user interactivity.
+- **Automated Tests**: Ensures the page renders the structured data correctly.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Setup Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- npm install
+- npm run dev
+- npm run test

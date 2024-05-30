@@ -32,7 +32,7 @@ const Book = ({ title, author, price, description }: BookType) => {
         <div className="flex flex-shrink-0 self-start">
           <Menu as="div" className="relative inline-block text-left">
             <div>
-              <MenuButton className="-m-2 flex items-center rounded-full p-2 text-gray-400 hover:text-gray-600">
+              <MenuButton data-testid='menu-box' className="-m-2 flex items-center rounded-full p-2 text-gray-400 hover:text-gray-600">
                 <span className="sr-only">Open options</span>
                 <EllipsisVerticalIcon className="h-5 w-5" aria-hidden="true" />
               </MenuButton>
